@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui" />
+		<title>王老吉</title>
+		<link href="css/index.css" rel="stylesheet" type="text/css"></link>	
+	</head>
+	<body>
+		<section id="bg-2">
+		<div id="lottery-num-bg">抽奖机会&nbsp;<span id="lottery-num">1</span></div>	
+		<div class="disc-main">
+        <div class="turn" id="bigwheel"><img src="img/disc.png" alt="" class="img-response" /></div>
+        <div class="pump" id="lottery"><img src="img/lottery_btn.png" class="img-response"/></div>
+    	</div>	
+    	<div class="btn-list">
+    		<div class="btn-1" id="lottery2">开始抽奖</div>
+    		<a href="index.html" class="btn-1 display-block">返回主页</a>
+    	</div>
+		</section>
+		<div id="mask" style="display: block;"></div>
+		<div id="pop-lottery" class="pop-tip">
+			<!--转盘指针对应相应图层显示出来-->
+			<section id="lottery-1">
+				<h2>恭喜你</h2>
+				<p>获得绿盒王老吉<span class="color-yellow font-30">1</span>箱</p>
+			</section>
+			<section id="lottery-2">
+				<h2>恭喜你</h2>
+				<p>获得乐视观影券<span class="color-yellow font-30">1</span>张</p>
+			</section>
+			<section id="lottery-3">
+				<h2>恭喜你</h2>
+				<p>获得王老吉润喉糖<span class="color-yellow font-30">1</span>排</p>
+			</section>
+			<section id="lottery-4">
+				<h2>恭喜你</h2>
+				<p>获得迷你加湿器一台<span class="color-yellow font-30">1</span>台</p>
+			</section>	
+			<section id="lottery-4">
+				<h2>恭喜你</h2>
+				<p>获得抽奖机会<span class="color-yellow font-30">1</span>次</p>
+			</section>
+			<section id="lottery-4">
+				<h2>谢谢参与</h2>
+				<p>下一次会成功的</p>
+			</section>		
+			<section id="no-game">
+				<h2>哎呀</h2>
+				<p>今天抽奖次数已经用完了噢</p>
+		    </section>
+		    <!--卡券页面变成填写资料-->
+			<div class="btn-1 return-page" id="input">填写资料</div>
+		</div>
+		<article id="human-info" style="display: block;">
+			<div class="info-list">
+				<p class="input-p"><input type="text" id="input-name" class="input-data" placeholder="名字">
+				</p>	
+				<p class="input-p"><input type="tel" id="input-tel" class="input-data" placeholder="联系电话"></p>
+				<p class="input-p"><input type="text" id="input-address" class="input-data" placeholder="收货地址"></p>
+				<p class="require-null"></p>
+			</div>
+			<a href="###"  class="btn-1 display-block" id="save">保存并返回</a>
+		</article>		
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/turntable.js"></script>
+	</body>
+</html>
